@@ -43,8 +43,8 @@ if __name__ == "__main__":
     y0 = 1.0
     mu = 0.05
     sigma = 0.2
-    T = 1.0
-    N = 100
+    T = 2.0
+    N = 300
 
     simulator = GBMSimulator(y0, mu, sigma)
     t, y = simulator.simulate_path(T, N)
