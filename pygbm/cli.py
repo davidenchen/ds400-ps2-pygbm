@@ -25,8 +25,8 @@ def main():
     parser_sim.add_argument("--mu", type=float, default=0.05, help="Drift term")
     parser_sim.add_argument("--sigma", type=float, default=0.2, help="Diffusion term")
     parser_sim.add_argument("--T", type=float, default=1.0, help="End time")
-    parser_sim.add_argument("--N", type=int, default=1.0, help="Number of steps")
-    parser_sim.add_argument("--output", type=str, default=1.0, help="Output path")
+    parser_sim.add_argument("--N", type=int, default=100, help="Number of steps")
+    parser_sim.add_argument("--output", type=str, default="plot.png", help="Output path")
 
     args = parser.parse_args()
     if args.command == "simulate":
