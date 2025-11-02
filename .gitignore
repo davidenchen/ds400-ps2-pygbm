@@ -1,1 +1,3 @@
-pybgm.egg-info/
+pygbm.egg-info/
+pygbm/__pycache__/
+pygbm/version.py
