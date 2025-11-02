@@ -24,3 +24,6 @@ write_to = "pygbm/version.py"
 
 [tool.setuptools.packages.find]
 where = ["."]
+
+[tool.setuptools.package-data]
+"pygbm" = ["data/*"]

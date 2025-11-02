@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from pygbm.gbm_simulator import GBMSimulator
+import pygbm
 
 if __name__ == "__main__":
     y0 = 1.0
@@ -8,7 +8,7 @@ if __name__ == "__main__":
     T = 1.0
     N = 200
 
-    simulator = GBMSimulator(y0, mu, sigma)
+    simulator = pygbm.gbm_simulator.GBMSimulator(y0, mu, sigma)
     t, y = simulator.simulate_path(T, N)
 
     plt.plot(t, y, label="GBM Path")
