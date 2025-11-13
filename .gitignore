@@ -2,3 +2,4 @@ pygbm_dec52.egg-info/
 **/__pycache__/**
 pygbm/version.py
 dist/
+docs/build/
