@@ -14,7 +14,8 @@ authors = [
 
 dependencies = [
     "numpy",
-    "matplotlib"
+    "matplotlib",
+    "argparse"
 ]
 
 [project.scripts]
